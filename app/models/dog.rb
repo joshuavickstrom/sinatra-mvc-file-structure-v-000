@@ -9,12 +9,6 @@ class Dog
     @@all = []
   end
 
-  def self.create
-    self.each do
-      @@all >> self
-    end
-  end
-
   def self.all
     @@all
   end

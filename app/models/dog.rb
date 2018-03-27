@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.all
-    Dog.each do
+    Dog.new.each do
       @@all >> self
     end
     @@all

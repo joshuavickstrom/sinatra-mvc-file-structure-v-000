@@ -9,8 +9,12 @@ class Dog
     @@all = []
   end
 
+  def self.create
+
+  end
+
   def self.all
-  @@all
+    @@all
   end
 
 end

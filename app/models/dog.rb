@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.create
-
+    @@all >> self
   end
 
   def self.all
